@@ -1,1 +1,20 @@
-/* write your override styles here */
+#wall > .tag-1{
+    display:none;
+}
+#wall, #tag-4{
+    z-index: 7;
+}
+#wall, #tag-2{
+    z-index:2 ;
+}
+#wall, #tag-3.slick{
+    z-index: 4;
+}
+#wall, #tag-5.slick{
+    border: 2px solid red;
+    background: url(../images/tag-6.png) no-repeat;
+}
+#wall ,#tag-6{
+    z-index: 1;
+    background: url(../images/tag-5.png) no-repeat;
+}
